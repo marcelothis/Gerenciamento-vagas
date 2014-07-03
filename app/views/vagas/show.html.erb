@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @vaga.titulo %>
+</p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @vaga.data %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @vaga.descricao %>
+</p>
+
+<p>
+  <strong>Valor:</strong>
+  <%= @vaga.valor %>
+</p>
+
+<%= link_to 'Edit', edit_vaga_path(@vaga) %> |
+<%= link_to 'Back', vagas_path %>

@@ -1,0 +1,69 @@
+<form style="margin: 0px 0px 0px 16px;">
+		Aluno: <input type="radio" checked="checked" name="email" value="candidato" />
+		Empresa: <input type="radio" value="empresa" />
+		Professor: <input type="radio" value="professor" />
+</form>
+<table id="new_aluno">
+<%= form_for(@aluno) do |f| %>
+  <% if @aluno.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@aluno.errors.count, "erro") %> encontrado(s):</h2>
+
+      <ul>
+      <% @aluno.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  	<tr><td colspan="2"><h6 class="title text-black" style="margin-bottom: 10px; padding: 0 15px;">
+							<strong>Dados do aluno: </strong>
+						</h6></td></tr>
+    <td width="200px"><%= f.text_field :nome, :class => 'form-control', :placeholder => 'Nome' %></td>
+  
+    <td><%= f.text_field :matricula, :class => 'form-control', :placeholder => 'Matrícula'  %></td></tr>
+  
+  	
+  
+  	<tr><td colspan="2"><h6 class="title text-black" style="margin-bottom: 10px; padding: 0 15px;">
+							<strong>Endereço: </strong>
+						</h6></td></tr>
+    <td><%= f.text_field :cep, :class => 'form-control', :placeholder => 'Cep',  :onblur => 'getEndereco()' %></td>
+  
+    <td><%= f.text_field :rua, :class => 'form-control', :placeholder => 'Logradouro'  %></td></tr>
+  
+    <tr><td><%= f.text_field :numero, :class => 'form-control', :placeholder => 'Número'  %></td>
+  
+   <td> <%= f.text_field :bairro, :class => 'form-control', :placeholder => 'Bairro'  %></td></tr>
+  
+    <tr><td><%= f.text_field :cidade, :class => 'form-control', :placeholder => 'Cidade'  %></td>
+  
+    <td><%= f.text_field :estado, :class => 'form-control', :placeholder => 'Estado'  %></td>
+  	
+  	
+  	<tr><td colspan="2"><h6 class="title text-black" style="margin-bottom: 10px; padding: 0 15px;">
+							<strong>Telefones: </strong>
+						</h6></td></tr>
+  	
+    <tr><td>
+    <%= f.text_field :celular, :class => 'form-control', :placeholder => 'Celular'  %></td>
+  	
+  	<td>
+    <%= f.text_field :telefone, :class => 'form-control', :placeholder => 'Telefone'  %></td></tr>
+    
+    <tr><td colspan="2"><h6 class="title text-black" style="margin-bottom: 10px; padding: 0 15px;">
+							<strong>Dados da conta: </strong>
+						</h6></td></tr>
+  
+    <tr><td>
+    <%= f.text_field :email, :class => 'form-control', :placeholder => 'E-mail'  %></td>
+  
+   <td>  
+    <%= f.password_field :senha, :class => 'form-control', :placeholder => 'Senha'  %></td></tr>
+  
+    <tr><td colspan="2"><%= f.submit "Cadastrar", :class => 'btn btn-success' %></td></tr>
+
+</table>
+<% end %>
+
+

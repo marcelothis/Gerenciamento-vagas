@@ -1,0 +1,396 @@
+/* line 370, ajuda/*.png */
+.ajuda-sprite, .ajuda-FAQ_setaCINZA, .ajuda-FAQ_setaVERDE, .ajuda-dominio, .ajuda-gerenciamento, .ajuda-ico-MENU-dominioforadoar_branco, .ajuda-ico-MENU-dominioforadoar_cinza, .ajuda-ico-MENU-dominioforadoar_verde, .ajuda-ico-MENU-gerenciamentoconta_branco, .ajuda-ico-MENU-gerenciamentoconta_cinza, .ajuda-ico-MENU-gerenciamentoconta_verde, .ajuda-ico-MENU-pagamento_branco, .ajuda-ico-MENU-pagamento_cinza, .ajuda-ico-MENU-pagamento_verde, .ajuda-ico-MENU-problemas_branco, .ajuda-ico-MENU-problemas_cinza, .ajuda-ico-MENU-problemas_verde, .ajuda-ico-MENU-procedimentosadministrativos_branco, .ajuda-ico-MENU-procedimentosadministrativos_cinza, .ajuda-ico-MENU-procedimentosadministrativos_verde, .ajuda-ico-MENU-registronovosdominios_branco, .ajuda-ico-MENU-registronovosdominios_cinza, .ajuda-ico-MENU-registronovosdominios_verde, .ajuda-ico-MENU-tutorial_branco, .ajuda-ico-MENU-tutorial_cinza, .ajuda-ico-MENU-tutorial_verde, .ajuda-ico-TEC-seta-cinza, .ajuda-ico-TEC-seta-verde, .ajuda-menu_ajuda_setaBRANCA, .ajuda-menu_ajuda_setaCINZA, .ajuda-menu_ajuda_setaVERDE, .ajuda-pagamento, .ajuda-problemas, .ajuda-procedimentos, .ajuda-registro, .ajuda-tutorial, li:hover .ajuda-ico-MENU-dominioforadoar_cinza, li:hover .ajuda-ico-MENU-procedimentosadministrativos_cinza, li:hover .ajuda-ico-MENU-problemas_cinza, li:hover .ajuda-ico-MENU-pagamento_cinza, li:hover .ajuda-ico-MENU-registronovosdominios_cinza, li:hover .ajuda-ico-MENU-tutorial_cinza, li:hover .ajuda-ico-MENU-gerenciamentoconta_cinza, li.active .ajuda-ico-MENU-dominioforadoar_cinza, li.active .ajuda-ico-MENU-procedimentosadministrativos_cinza, li.active .ajuda-ico-MENU-problemas_cinza, li.active .ajuda-ico-MENU-pagamento_cinza, li.active .ajuda-ico-MENU-registronovosdominios_cinza, li.active .ajuda-ico-MENU-tutorial_cinza, li.active .ajuda-ico-MENU-gerenciamentoconta_cinza, .sidebar-menu li.active:after, .sidebar-menu li:hover:after, .sidebar-menu li:after {
+  background: url('/img/ajuda-s9cee0b4bb9.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-FAQ_setaCINZA {
+  background-position: 0 -1293px;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-FAQ_setaVERDE {
+  background-position: 0 -1313px;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-dominio {
+  background-position: 0 0;
+  height: 36px;
+  width: 36px;
+}
+/* line 43, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-dominio:hover, .ajuda-dominio.dominio_hover, .ajuda-dominio.dominio-hover {
+  background-position: 0 -36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-gerenciamento {
+  background-position: 0 -1008px;
+  height: 36px;
+  width: 36px;
+}
+/* line 43, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-gerenciamento:hover, .ajuda-gerenciamento.gerenciamento_hover, .ajuda-gerenciamento.gerenciamento-hover {
+  background-position: 0 -1188px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-dominioforadoar_branco {
+  background-position: 0 -1080px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-dominioforadoar_cinza {
+  background-position: 0 -540px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-dominioforadoar_verde {
+  background-position: 0 -576px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-gerenciamentoconta_branco {
+  background-position: 0 -1152px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-gerenciamentoconta_cinza {
+  background-position: 0 -972px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-gerenciamentoconta_verde {
+  background-position: 0 -792px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-pagamento_branco {
+  background-position: 0 -864px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-pagamento_cinza {
+  background-position: 0 -396px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-pagamento_verde {
+  background-position: 0 -432px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-problemas_branco {
+  background-position: 0 -180px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-problemas_cinza {
+  background-position: 0 -108px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-problemas_verde {
+  background-position: 0 -144px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-procedimentosadministrativos_branco {
+  background-position: 0 -828px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-procedimentosadministrativos_cinza {
+  background-position: 0 -684px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-procedimentosadministrativos_verde {
+  background-position: 0 -720px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-registronovosdominios_branco {
+  background-position: 0 -756px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-registronovosdominios_cinza {
+  background-position: 0 -612px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-registronovosdominios_verde {
+  background-position: 0 -648px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-tutorial_branco {
+  background-position: 0 -468px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-tutorial_cinza {
+  background-position: 0 -252px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-MENU-tutorial_verde {
+  background-position: 0 -288px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-TEC-seta-cinza {
+  background-position: 0 -1348px;
+  height: 15px;
+  width: 15px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-ico-TEC-seta-verde {
+  background-position: 0 -1333px;
+  height: 15px;
+  width: 15px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-menu_ajuda_setaBRANCA {
+  background-position: 0 -1282px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-menu_ajuda_setaCINZA {
+  background-position: 0 -1260px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-menu_ajuda_setaVERDE {
+  background-position: 0 -1271px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-pagamento {
+  background-position: 0 -360px;
+  height: 36px;
+  width: 36px;
+}
+/* line 43, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-pagamento:hover, .ajuda-pagamento.pagamento_hover, .ajuda-pagamento.pagamento-hover {
+  background-position: 0 -936px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-problemas {
+  background-position: 0 -72px;
+  height: 36px;
+  width: 36px;
+}
+/* line 43, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-problemas:hover, .ajuda-problemas.problemas_hover, .ajuda-problemas.problemas-hover {
+  background-position: 0 -216px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-procedimentos {
+  background-position: 0 -1116px;
+  height: 36px;
+  width: 36px;
+}
+/* line 43, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-procedimentos:hover, .ajuda-procedimentos.procedimentos_hover, .ajuda-procedimentos.procedimentos-hover {
+  background-position: 0 -1224px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-registro {
+  background-position: 0 -900px;
+  height: 36px;
+  width: 36px;
+}
+/* line 43, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-registro:hover, .ajuda-registro.registro_hover, .ajuda-registro.registro-hover {
+  background-position: 0 -1044px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-tutorial {
+  background-position: 0 -324px;
+  height: 36px;
+  width: 36px;
+}
+/* line 43, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ajuda-tutorial:hover, .ajuda-tutorial.tutorial_hover, .ajuda-tutorial.tutorial-hover {
+  background-position: 0 -504px;
+}
+
+/* line 6, ../sass/sprite-ajuda.scss */
+li:hover .ajuda-ico-MENU-dominioforadoar_cinza {
+  background-position: 0 -576px;
+  height: 36px;
+  width: 36px;
+}
+/* line 7, ../sass/sprite-ajuda.scss */
+li:hover .ajuda-ico-MENU-procedimentosadministrativos_cinza {
+  background-position: 0 -720px;
+  height: 36px;
+  width: 36px;
+}
+/* line 8, ../sass/sprite-ajuda.scss */
+li:hover .ajuda-ico-MENU-problemas_cinza {
+  background-position: 0 -144px;
+  height: 36px;
+  width: 36px;
+}
+/* line 9, ../sass/sprite-ajuda.scss */
+li:hover .ajuda-ico-MENU-pagamento_cinza {
+  background-position: 0 -432px;
+  height: 36px;
+  width: 36px;
+}
+/* line 10, ../sass/sprite-ajuda.scss */
+li:hover .ajuda-ico-MENU-registronovosdominios_cinza {
+  background-position: 0 -648px;
+  height: 36px;
+  width: 36px;
+}
+/* line 11, ../sass/sprite-ajuda.scss */
+li:hover .ajuda-ico-MENU-tutorial_cinza {
+  background-position: 0 -288px;
+  height: 36px;
+  width: 36px;
+}
+/* line 12, ../sass/sprite-ajuda.scss */
+li:hover .ajuda-ico-MENU-gerenciamentoconta_cinza {
+  background-position: 0 -792px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 16, ../sass/sprite-ajuda.scss */
+li.active .ajuda-ico-MENU-dominioforadoar_cinza {
+  background-position: 0 -1080px;
+  height: 36px;
+  width: 36px;
+}
+/* line 17, ../sass/sprite-ajuda.scss */
+li.active .ajuda-ico-MENU-procedimentosadministrativos_cinza {
+  background-position: 0 -828px;
+  height: 36px;
+  width: 36px;
+}
+/* line 18, ../sass/sprite-ajuda.scss */
+li.active .ajuda-ico-MENU-problemas_cinza {
+  background-position: 0 -180px;
+  height: 36px;
+  width: 36px;
+}
+/* line 19, ../sass/sprite-ajuda.scss */
+li.active .ajuda-ico-MENU-pagamento_cinza {
+  background-position: 0 -864px;
+  height: 36px;
+  width: 36px;
+}
+/* line 20, ../sass/sprite-ajuda.scss */
+li.active .ajuda-ico-MENU-registronovosdominios_cinza {
+  background-position: 0 -756px;
+  height: 36px;
+  width: 36px;
+}
+/* line 21, ../sass/sprite-ajuda.scss */
+li.active .ajuda-ico-MENU-tutorial_cinza {
+  background-position: 0 -468px;
+  height: 36px;
+  width: 36px;
+}
+/* line 22, ../sass/sprite-ajuda.scss */
+li.active .ajuda-ico-MENU-gerenciamentoconta_cinza {
+  background-position: 0 -1152px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 35, ../sass/sprite-ajuda.scss */
+.sidebar-menu li.active:after {
+  content: "";
+  position: absolute;
+  right: 30px;
+  margin-top: -1%;
+  background-position: 0 -1282px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 43, ../sass/sprite-ajuda.scss */
+.sidebar-menu li:hover:after {
+  content: "";
+  position: absolute;
+  right: 30px;
+  margin-top: -1%;
+  background-position: 0 -1271px;
+  height: 11px;
+  width: 11px;
+}
+
+/* line 51, ../sass/sprite-ajuda.scss */
+.sidebar-menu li:after {
+  content: "";
+  position: absolute;
+  right: 30px;
+  margin-top: -1%;
+  background-position: 0 -1260px;
+  height: 11px;
+  width: 11px;
+}

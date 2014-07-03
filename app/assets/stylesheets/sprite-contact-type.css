@@ -1,0 +1,60 @@
+/* line 98, contact-type/*.png */
+.contact-type-sprite, .contact-type-ico-menu-administrador_branco, .contact-type-ico-menu-administrador_cinza, .contact-type-ico-menu-contato-pagamento_branco, .contact-type-ico-menu-contato-pagamento_cinza, .contact-type-ico-menu-contato-tecnico_branco, .contact-type-ico-menu-contato-tecnico_cinza, .contact-type-ico-menu-contato-titularidade_branco, .contact-type-ico-menu-contato-titularidade_cinza {
+  background: url('/img/contact-type-sef3ac3e6f8.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-administrador_branco {
+  background-position: 0 -175px;
+  height: 25px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-administrador_cinza {
+  background-position: 0 -150px;
+  height: 25px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-contato-pagamento_branco {
+  background-position: 0 -75px;
+  height: 25px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-contato-pagamento_cinza {
+  background-position: 0 0;
+  height: 25px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-contato-tecnico_branco {
+  background-position: 0 -100px;
+  height: 25px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-contato-tecnico_cinza {
+  background-position: 0 -25px;
+  height: 25px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-contato-titularidade_branco {
+  background-position: 0 -125px;
+  height: 25px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-type-ico-menu-contato-titularidade_cinza {
+  background-position: 0 -50px;
+  height: 25px;
+  width: 25px;
+}

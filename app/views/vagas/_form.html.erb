@@ -1,0 +1,39 @@
+<table>
+	
+<%= form_for(@vaga) do |f| %>
+  <% if @vaga.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@vaga.errors.count, "erro") %> encontrado(s) </h2>
+
+      <ul>
+      <% @vaga.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+	
+	<tr>
+		<td>
+    		<%= f.text_field :titulo, :class => 'form-control', :placeholder => 'Título', :style => "float:left;margin-right:10px;" %>
+    	
+    		<%= f.text_field :valor , :class => 'form-control', :placeholder => 'Valor'%>
+		</td>
+	</tr>
+	<tr>
+		<td>
+    		<%= f.date_select :data, :class => 'form-control'%>
+		</td>
+	</tr>
+    <tr>
+    	<td>
+    		<%= f.text_area :descricao, :class => 'form-control', :placeholder => 'Descrição', :style => "width:290px;height:130px" %>
+		</td>
+	</tr>
+    <tr>  
+    	<td>
+    		<%= f.submit "Cadastrar", :class => 'btn btn-success'  %>
+  		</td>
+  	</tr>
+  </table>
+<% end %>

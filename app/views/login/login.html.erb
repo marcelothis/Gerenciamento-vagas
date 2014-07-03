@@ -1,0 +1,58 @@
+<div id="content">
+		<div class="text-login">
+			<img src="/assets/login.jpg">
+			<h3>Vagas RN, <a href="../alunos/new" style="color: #fff;text-decoration: underline">cadastre-se</a> agora mesmo!</h3>
+			
+		</div>
+		<div id="form-login">
+			<img src="/assets/logo.png" width="280px" />
+			<form method="post" action="login">
+				<input type="email" name="email" class="email" required
+					placeholder="E-mail" /> <br /> <input type="password"
+					name="senha" class="senha" required placeholder="Senha" /> <br />
+
+				<input type="submit" value="Entrar" class="button"
+					style="border: none;" />
+
+				<p class="esqueci" onclick="backgroundEsqueceuSenha();"
+					style="cursor: pointer; text-decoration:underline">Esqueceu sua Senha?</p>
+			</form>
+		</div>
+	</div>
+	
+	<div class="backgroundEsqueceuSenha" style="display: none;"></div>
+	<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable"
+		tabindex="-1" role="dialog" aria-describedby="dialog-confirm" id="dialog"
+		aria-labelledby="ui-id-1"
+		style="height: auto; width: 500px; top: 184.5px; left: 32%; display: none;">
+		<div
+			class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+			<span id="ui-id-1" class="ui-dialog-title">Esqueceu sua senha?</span>
+
+		</div>
+		<div id="dialog-confirm"
+			style="z-index: 9999; width: 500px; min-height: 0px; max-height: none;"
+			class="ui-dialog-content ui-widget-content">
+			<label>Insira seu e-mail abaixo.</label> <input type="email"
+				id="Email" placeholder="E-mail" style="width: 430px; padding: 12px;margin-top:10px;">
+			<div id="textCheckEmail"
+				style="color: red; font-family: Arial; display: none;">Email
+				não existe!</div>
+			<p style="margin-top: 10px; font-size: 14px;">Um e-mail será
+				enviado para sua caixa de entrada.</p>
+		</div>
+		<div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+			<div class="ui-dialog-buttonset">
+				<button type="button" onclick="enviarEmailNovaSenha();"
+					class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"
+					role="button" aria-disabled="false">
+					<span class="ui-button-text">Confirmar</span>
+				</button>
+				<button type="button"
+					class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"
+					role="button" aria-disabled="false">
+					<span class="ui-button-text" onclick="fecharDialog();">Cancelar</span>
+				</button>
+			</div>
+		</div>      
+	</div>

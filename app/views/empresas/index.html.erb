@@ -1,0 +1,33 @@
+<h1>Empresas cadastradas</h1>
+
+<table class="table table-hover"> 
+  <thead>
+    <tr>
+      <th>Nome f.</th>
+      <th>Cnpj</th>
+      <th>Celular</th>
+      <th>Telefone</th>
+      <th>Email</th>
+      <th colspan="3">Ações</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @empresas.each do |empresa| %>
+      <tr>
+        <td><%= empresa.nome_fantasia %></td>
+        <td><%= empresa.cnpj %></td>
+        <td><%= empresa.celular %></td>
+        <td><%= empresa.telefone %></td>
+        <td><%= empresa.email %></td>
+        <td><%= link_to image_tag("icons/ficha.png", :title => "Detalhes da empresa", :width => "30px"), empresa %></td>
+        <td><%= link_to image_tag("icons/editdocumnto.png", :title => "Editar empresa", :width => "30px"), edit_empresa_path(empresa) %></td>
+        <td><%= link_to image_tag("icons/excluir.png", :title => "Excluir empresa", :width => "30px"), empresa, method: :delete, data: { confirm: 'Deseja realmente excluir este item?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Cadastrar nova empresa', new_empresa_path %>
